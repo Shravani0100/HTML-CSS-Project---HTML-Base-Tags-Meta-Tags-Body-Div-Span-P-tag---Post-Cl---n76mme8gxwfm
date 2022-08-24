@@ -1,1 +1,53 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+body {
+    background-color: #cfe1e4;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    border-style: solid;
+    border-radius: 10px;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about{
+    
+    font-size: 13px;
+    margin: 23px 23px;
+    word-wrap: break-word;
+}
+
+p{
+    margin-top: 2px;
+}
+
+.center {
+    text-align: center;
+    position: relative;
+}
+
+.digit{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    
+}
+
+.last{
+    border-style: none;
+    background-color: gray;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 5;
+    font-size: 12px;
+    padding: 10px;
+    margin: 23px 23px;
+}
